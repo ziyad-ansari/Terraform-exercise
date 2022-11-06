@@ -10,7 +10,7 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  access_key = "NOT GIVEN FOR SECURITY"
-  secret_key = "NOT GIVEN FOR SECURITY"
+  access_key = #"NOT GIVEN FOR SECURITY REASONS"
+  secret_key = #"NOT GIVEN FOR SECURITY REASONS"
   region = var.region
 }
